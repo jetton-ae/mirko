@@ -81,6 +81,11 @@ li {
     position: relative;
 }
 
+.text-6 {
+    box-shadow: 0 1px;
+    padding-bottom: 5px;
+}
+
 .services,
 .work,
 .contact,
