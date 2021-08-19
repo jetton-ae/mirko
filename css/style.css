@@ -767,3 +767,7 @@ li {
         background-size: 22px 34px;
     }
 }
+
+a:hover {
+    color: #ffffff;
+}
