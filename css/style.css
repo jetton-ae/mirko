@@ -81,7 +81,7 @@ Table Of Contents:
     .contact,
     .testimonial,
     .footer {
-        background-color: var(--primary);
+        background-color: #ff9224;
     }
     
     .about,
@@ -89,11 +89,11 @@ Table Of Contents:
     .company,
     .newsletter,
     .location {
-        background-color: var(--primary-light);
+        background-color: #FFE0C0;
     }
     
     .bottom {
-        background-color: black;
+        background-color: #7d3e00;
     }
     /* Gradient Border And Background On Icons */
     
@@ -269,15 +269,15 @@ Table Of Contents:
     /***********************/
     
     .information .container-fluid .row div:first-child {
-        background-color: var(--primary);
+        background-color: #7d3e00;
     }
     
     .information .container-fluid .row div:last-child {
-        background-color: white;
+        background-color: #f0f0f0;
     }
     
     .information .container-fluid .row div:nth-child(2) {
-        background-color: var(--primary-light);
+        background-color: #ff9224;
     }
     /******************/
     /*     Button     */
@@ -347,7 +347,8 @@ Table Of Contents:
     .services .card {
         padding: 20px;
         border-radius: 0;
-        border: 2px solid white;
+        border: 2px solid #ff9224;
+        color: black;
     }
     
     .services .card:hover {
@@ -758,4 +759,12 @@ Table Of Contents:
         -ms-border-radius: 50%;
         -o-border-radius: 50%;
         border-radius: 50%;
+    }
+    
+    .textcolor {
+        color: #000 !important;
+    }
+    
+    .productcolor {
+        background: #ff9224;
     }
