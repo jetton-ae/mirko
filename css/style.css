@@ -777,6 +777,10 @@ Table Of Contents:
         color: #000 !important;
     }
     
+    .textpostion {
+        margin-top: 15px !important;
+    }
+    
     .productcolor {
         background: #ff9224;
     }
