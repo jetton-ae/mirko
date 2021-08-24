@@ -81,7 +81,7 @@ Table Of Contents:
     .contact,
     .testimonial,
     .footer {
-        background-color: #ff9224;
+        background-color: #f0f0f0;
     }
     
     .about,
@@ -90,6 +90,18 @@ Table Of Contents:
     .newsletter,
     .location {
         background-color: #FFE0C0;
+    }
+    
+    .aboutcolor {
+        background: #ff9224;
+    }
+    
+    .footercolor {
+        background: #ff9224;
+    }
+    
+    .workcolor {
+        background: #ff9224;
     }
     
     .bottom {
@@ -389,7 +401,7 @@ Table Of Contents:
         border: 10px solid;
         border-image-slice: 1;
         border-width: 3px;
-        border-image-source: var(--gradient);
+        border-image-source: #ff9224 !important;
     }
     
     .slider-1 .slider-container {
