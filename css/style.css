@@ -998,3 +998,7 @@ Table Of Contents:
         -webkit-transform: perspective(1px) translate3d(0, 0, 0);
         transform: perspective(1px) translate3d(0, 0, 0);
     }
+    
+    p>a:hover {
+        color: #ff9224;
+    }
