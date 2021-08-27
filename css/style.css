@@ -857,7 +857,7 @@ Table Of Contents:
         display: inline-block;
         margin: 20px 0 50px;
         width: 100%;
-        border-bottom: 3px solid #ff9224;
+        border-bottom: 3px solid #ffb600;
     }
     
     .shuffle-btn-group label {
@@ -888,7 +888,7 @@ Table Of Contents:
     
     .shuffle-btn-group label.active {
         color: #212121;
-        background: #ff9224;
+        background: #ffb600;
     }
     
     .shuffle-btn-group label input {
@@ -939,7 +939,7 @@ Table Of Contents:
         right: 0;
         z-index: 1;
         padding: 5px 12px;
-        background: #ff9224;
+        background: #ffb600;
         color: #fff;
         opacity: 0;
         -webkit-transform: perspective(1px) scale3d(0, 0, 0);
@@ -980,11 +980,11 @@ Table Of Contents:
     }
     
     .shuffle-item .project-img-container .project-item-info-content .project-item-title a:hover {
-        color: #ff9224;
+        color: #ffb600;
     }
     
     .shuffle-item .project-img-container .project-item-info-content .project-cat {
-        background: #ff9224;
+        background: #ffb600;
         display: inline-block;
         padding: 2px 8px;
         font-weight: 700;
