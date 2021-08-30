@@ -4134,7 +4134,7 @@ fieldset:disabled .btn {
     list-style: none
 }
 
-.nav-link {
+.nav-link .nav-link1 {
     display: block;
     padding: .5rem 1rem;
     color: #0d6efd;
@@ -4143,17 +4143,17 @@ fieldset:disabled .btn {
 }
 
 @media (prefers-reduced-motion:reduce) {
-    .nav-link {
+    .nav-link .nav-link1 {
         transition: none
     }
 }
 
-.nav-link:focus,
-.nav-link:hover {
+.nav-link .nav-link1:focus,
+.nav-link .nav-link1:hover {
     color: #0a58ca
 }
 
-.nav-link.disabled {
+.nav-link .nav-link1.disabled {
     color: #6c757d;
     pointer-events: none;
     cursor: default
@@ -4163,25 +4163,25 @@ fieldset:disabled .btn {
     border-bottom: 1px solid #dee2e6
 }
 
-.nav-tabs .nav-link {
+.nav-tabs .nav-link .nav-link1 {
     margin-bottom: -1px;
     background: 0 0;
     border-top-left-radius: .25rem;
     border-top-right-radius: .25rem
 }
 
-.nav-tabs .nav-link:focus,
-.nav-tabs .nav-link:hover {
+.nav-tabs .nav-link .nav-link1:focus,
+.nav-tabs .nav-link .nav-link1:hover {
     isolation: isolate
 }
 
-.nav-tabs .nav-link.disabled {
+.nav-tabs .nav-link .nav-link1.disabled {
     color: #6c757d;
     border-color: transparent
 }
 
-.nav-tabs .nav-item.show .nav-link,
-.nav-tabs .nav-link.active {
+.nav-tabs .nav-item.show .nav-link .nav-link1,
+.nav-tabs .nav-link .nav-link1.active {
     color: #495057;
 }
 
@@ -4191,33 +4191,33 @@ fieldset:disabled .btn {
     border-top-right-radius: 0
 }
 
-.nav-pills .nav-link {
+.nav-pills .nav-link .nav-link1 {
     background: 0 0;
     border: 0;
     border-radius: .25rem
 }
 
-.nav-pills .nav-link.active,
-.nav-pills .show>.nav-link {
+.nav-pills .nav-link .nav-link1.active,
+.nav-pills .show>.nav-link .nav-link1 {
     color: #fff;
     background-color: #0d6efd
 }
 
 .nav-fill .nav-item,
-.nav-fill>.nav-link {
+.nav-fill>.nav-link .nav-link1 {
     flex: 1 1 auto;
     text-align: center
 }
 
 .nav-justified .nav-item,
-.nav-justified>.nav-link {
+.nav-justified>.nav-link .nav-link1 {
     flex-basis: 0;
     flex-grow: 1;
     text-align: center
 }
 
-.nav-fill .nav-item .nav-link,
-.nav-justified .nav-item .nav-link {
+.nav-fill .nav-item .nav-link .nav-link1,
+.nav-justified .nav-item .nav-link .nav-link1 {
     width: 100%
 }
 
@@ -4269,7 +4269,7 @@ fieldset:disabled .btn {
     list-style: none
 }
 
-.navbar-nav .nav-link {
+.navbar-nav .nav-link .nav-link1 {
     padding-right: 0;
     padding-left: 0
 }
@@ -4341,7 +4341,7 @@ fieldset:disabled .btn {
     .navbar-expand-sm .navbar-nav .dropdown-menu {
         position: absolute
     }
-    .navbar-expand-sm .navbar-nav .nav-link {
+    .navbar-expand-sm .navbar-nav .nav-link .nav-link1 {
         padding-right: .5rem;
         padding-left: .5rem
     }
@@ -4368,7 +4368,7 @@ fieldset:disabled .btn {
     .navbar-expand-md .navbar-nav .dropdown-menu {
         position: absolute
     }
-    .navbar-expand-md .navbar-nav .nav-link {
+    .navbar-expand-md .navbar-nav .nav-link .nav-link1 {
         padding-right: .5rem;
         padding-left: .5rem
     }
@@ -4395,7 +4395,7 @@ fieldset:disabled .btn {
     .navbar-expand-lg .navbar-nav .dropdown-menu {
         position: absolute
     }
-    .navbar-expand-lg .navbar-nav .nav-link {
+    .navbar-expand-lg .navbar-nav .nav-link .nav-link1 {
         padding-right: .5rem;
         padding-left: .5rem
     }
@@ -4422,7 +4422,7 @@ fieldset:disabled .btn {
     .navbar-expand-xl .navbar-nav .dropdown-menu {
         position: absolute
     }
-    .navbar-expand-xl .navbar-nav .nav-link {
+    .navbar-expand-xl .navbar-nav .nav-link .nav-link1 {
         padding-right: .5rem;
         padding-left: .5rem
     }
@@ -4449,7 +4449,7 @@ fieldset:disabled .btn {
     .navbar-expand-xxl .navbar-nav .dropdown-menu {
         position: absolute
     }
-    .navbar-expand-xxl .navbar-nav .nav-link {
+    .navbar-expand-xxl .navbar-nav .nav-link .nav-link1 {
         padding-right: .5rem;
         padding-left: .5rem
     }
@@ -4478,7 +4478,7 @@ fieldset:disabled .btn {
     position: absolute
 }
 
-.navbar-expand .navbar-nav .nav-link {
+.navbar-expand .navbar-nav .nav-link .nav-link1 {
     padding-right: .5rem;
     padding-left: .5rem
 }
@@ -4505,21 +4505,21 @@ fieldset:disabled .btn {
     color: rgba(0, 0, 0, .9)
 }
 
-.navbar-light .navbar-nav .nav-link {
+.navbar-light .navbar-nav .nav-link .nav-link1 {
     color: rgba(0, 0, 0, .55)
 }
 
-.navbar-light .navbar-nav .nav-link:focus,
-.navbar-light .navbar-nav .nav-link:hover {
+.navbar-light .navbar-nav .nav-link .nav-link1:focus,
+.navbar-light .navbar-nav .nav-link .nav-link1:hover {
     color: rgba(0, 0, 0, .7)
 }
 
-.navbar-light .navbar-nav .nav-link.disabled {
+.navbar-light .navbar-nav .nav-link .nav-link1.disabled {
     color: rgba(0, 0, 0, .3)
 }
 
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .show>.nav-link {
+.navbar-light .navbar-nav .nav-link .nav-link1.active,
+.navbar-light .navbar-nav .show>.nav-link .nav-link1 {
     color: rgba(0, 0, 0, .9)
 }
 
@@ -4551,21 +4551,21 @@ fieldset:disabled .btn {
     color: #fff
 }
 
-.navbar-dark .navbar-nav .nav-link {
+.navbar-dark .navbar-nav .nav-link .nav-link1 {
     color: rgba(255, 255, 255, .55)
 }
 
-.navbar-dark .navbar-nav .nav-link:focus,
-.navbar-dark .navbar-nav .nav-link:hover {
+.navbar-dark .navbar-nav .nav-link .nav-link1:focus,
+.navbar-dark .navbar-nav .nav-link .nav-link1:hover {
     color: rgba(255, 255, 255, .75)
 }
 
-.navbar-dark .navbar-nav .nav-link.disabled {
+.navbar-dark .navbar-nav .nav-link .nav-link1.disabled {
     color: rgba(255, 255, 255, .25)
 }
 
-.navbar-dark .navbar-nav .nav-link.active,
-.navbar-dark .navbar-nav .show>.nav-link {
+.navbar-dark .navbar-nav .nav-link .nav-link1.active,
+.navbar-dark .navbar-nav .show>.nav-link .nav-link1 {
     color: #fff
 }
 

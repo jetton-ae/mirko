@@ -100,7 +100,7 @@
         }
         
         a:hover {
-            color: #70b0eb;
+            color: #ffffff;
             /*マウスオン時の文字色*/
             text-decoration: none;
             /*マウスオン時に下線を消す設定。残したいならこの１行削除。*/
