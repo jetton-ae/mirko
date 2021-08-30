@@ -122,8 +122,7 @@ a {
 }
 
 a:hover {
-    text-decoration: none;
-    color: #000;
+    color: #7d3e00 !important;
 }
 
 a.read-more {
@@ -984,7 +983,7 @@ ul.navbar-nav>li:last-child:after {
 
 ul.navbar-nav>li>a:hover,
 ul.navbar-nav>li>a:focus {
-    background: none;
+    background: block;
 }
 
 ul.navbar-nav>li>a i {
@@ -1014,7 +1013,7 @@ ul.navbar-nav>li>a:after {
 
 ul.navbar-nav>li>a {
     font-family: "Montserrat", sans-serif;
-    color: #fff !important;
+    color: rgb(255, 255, 255) !important;
     text-rendering: optimizeLegibility;
     font-weight: 700 !important;
     text-transform: uppercase;
@@ -1026,9 +1025,19 @@ ul.navbar-nav>li>a {
     transition: 350ms;
 }
 
-.navbar-light ul.navbar-nav>li>a {
-    color: #000 !important;
-    font-size: 13px;
+ul.navbar-nav>li>a:hover {
+    font-family: "Montserrat", sans-serif;
+    color: #ff9224 !important;
+    text-rendering: optimizeLegibility;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+    letter-spacing: -.2px;
+    font-size: 14px;
+    margin: 0;
+    line-height: 40px;
+    padding: 30px 0;
+    transition: 350ms;
+    display: block;
 }
 
 
@@ -2710,13 +2719,13 @@ img.testimonial-thumb {
 /*-- Copyright --*/
 
 .copyright {
-    background: #ffb600;
-    color: #111;
+    background: #7d3e00;
+    color: rgb(255, 255, 255);
     padding: 25px 0 15px;
     position: relative;
     z-index: 1;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .footer-menu ul li {
