@@ -997,12 +997,12 @@ Table Of Contents:
         opacity: 1;
         -webkit-transform: perspective(1px) translate3d(0, 0, 0);
         transform: perspective(1px) translate3d(0, 0, 0);
-<<<<<<< HEAD
+        <<<<<<< HEAD
     }
     
     p>a:hover {
         color: #ff9224;
-<<<<<<< HEAD
+        <<<<<<< HEAD
     }
     
     .product {
@@ -1131,8 +1131,5 @@ Table Of Contents:
         font-weight: bold;
         margin-bottom: .3vw;
         font-weight: 500;
-=======
->>>>>>> parent of d9c44ae (1)
-=======
->>>>>>> parent of 9f2c4ec (商品頁)
+        =======>>>>>>>parent of d9c44ae (1)=======>>>>>>>parent of 9f2c4ec (商品頁)
     }
