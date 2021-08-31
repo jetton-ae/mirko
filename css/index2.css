@@ -122,7 +122,7 @@ a {
 }
 
 a:hover {
-    color: #7d3e00 !important;
+    color: #7d3e00;
 }
 
 a.read-more {
@@ -4001,6 +4001,8 @@ li {
 }
 
 .navbar .nav-item .nav-link {
+    font-size: 25px;
+    line-height: 50px;
     color: #eee;
     text-decoration: none;
     padding-top: 0.625rem;
