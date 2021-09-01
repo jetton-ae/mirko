@@ -4006,7 +4006,7 @@ Table Of Contents:
     .services .card {
         padding: 20px;
         border-radius: 0;
-        border: 2px solid #ff9224;
+        border: 2px solid #ff9224 !important;
         color: black;
     }
     
