@@ -4719,5 +4719,8 @@ Table Of Contents:
         font-weight: bold;
         margin-bottom: .3vw;
         font-weight: 500;
-        =======>>>>>>>parent of d9c44ae (1)=======>>>>>>>parent of 9f2c4ec (商品頁)
+    }
+    
+    .liimg>img {
+        width: 100%;
     }
