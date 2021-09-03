@@ -46,6 +46,7 @@
     <link href="./css/aos.min.css" rel="stylesheet">
     <link href="./css/swiper.css" rel="stylesheet">
     <link href="./css/index2.css" rel="stylesheet">
+    <link rel="stylesheet" href="./plugins/animate-css/animate.css">
 
     <!-- Favicon -->
     <link rel="icon" href="./assets/images/favicon.png">
@@ -84,7 +85,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="index.html#health">健康情報</a>
                     </li>
-                    <!-- 下拉式選單<li class="nav-item dropdown">
+                    <!-- <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false" href="#">Drop</a>
 
                         <ul class="dropdown-menu" aria-labelledby="dropdown01">
@@ -149,25 +150,73 @@
 
 
     <!-- Information -->
+    <!--------------------------------------------------------------------------------
+        測試能不能讓主頁跟商品介紹一樣
+    --------------------------------------------------------------------------------->
     <section class="information">
         <div class="container-fluid">
-            <div class="row text-light">
-                <div class="col-lg-4 text-center p-5" data-aos="zoom-in">
-                    <i class="fas fa-tachometer-alt fa-3x p-2"></i>
-                    <h4 class="py-3">Download 1 GBPS</h4>
-                    <p class="para-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam odit consequatur doloribus natus in suscipit!</p>
-                </div>
-                <div class="col-lg-4 text-center p-5" data-aos="zoom-in">
-                    <i class="fas fa-clock fa-3x p-2"></i>
-                    <h4 class="py-3">99% Internet Uptime</h4>
-                    <p class="para-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam odit consequatur doloribus natus in suscipit!</p>
-                </div>
-                <div class="col-lg-4 text-center p-5 text-dark" data-aos="zoom-in">
-                    <i class="fas fa-headset fa-3x p-2"></i>
-                    <h4 class="py-3">24/7 Support </h4>
-                    <p class="para-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam odit consequatur doloribus natus in suscipit!</p>
+            <div class="col-lg-8 col-md-12">
+                <nav>
+                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                        <a class="nav-link1 active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">特色</a>
+                        <a class="nav-link1" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">適用對象</a>
+                        <a class="nav-link1" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">使用方法</a>
+                        <a class="nav-link1" id="nav-format-tab" data-toggle="tab" href="#nav-format" role="tab" aria-controls="nav-format" aria-selected="false">規格</a>
+                        <a class="nav-link1" id="nav-contact-tab" target="_blank" href="https://jbcmalltw.easy.co/">購買</a>
+                    </div>
+                </nav>
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active ulpos" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <ul>
+                            <li>◎孕婦專用配方，滿足產前產後身體所需營養補給</li>
+                            <li>◎添加葉酸、維生素B群有助於胎兒的正常發育和生長及增進神經系統健康</li>
+                            <li>◎3種蛋白質來源，提供完整孕婦和胎兒的營養所需</li>
+                            <li>◎植物性Omega-3幫助母體和胎兒健康維持</li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade ulpos" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <ul>
+                            <li>◎適合準媽媽、懷孕期間及哺乳期之營養補給</li>
+                            <li>◎懷孕及哺乳期間所需要的營養是一生中最多也是重要的</li>
+                            <li>◎『一人吃兩人補』有健康的媽媽就有健康的寶寶</li>
+                            <li>◎針對孕婦而設計的奶粉，添加孕期特別需要的營養成分，如蛋白質、葉酸、維生素C、維生素E、鈣、鐵、鋅等</li>
+                            <li>◎每天2-3杯使營養素做更有效率的利用</li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade ulpos" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                        <ul>
+                            <li class="liimg"><img src="images/優+好孕到產品頁面介紹_1157.jpg" alt=""></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade ulpos" id="nav-format" role="tabpanel" aria-labelledby="nav-format-tab">
+                        <ul>
+                            <li>◎900 g</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
+        </div>
+        <!-- end of row -->
+        </div>
+        <div class="row text-light">
+            <div class="col-lg-4 text-center p-5" data-aos="zoom-in">
+                <i class="fas fa-tachometer-alt fa-3x p-2"></i>
+                <h4 class="py-3">Download 1 GBPS</h4>
+                <p class="para-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam odit consequatur doloribus natus in suscipit!</p>
+            </div>
+            <div class="col-lg-4 text-center p-5" data-aos="zoom-in">
+                <i class="fas fa-clock fa-3x p-2"></i>
+                <h4 class="py-3">99% Internet Uptime</h4>
+                <p class="para-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam odit consequatur doloribus natus in suscipit!</p>
+            </div>
+            <div class="col-lg-4 text-center p-5 text-dark" data-aos="zoom-in">
+                <i class="fas fa-headset fa-3x p-2"></i>
+                <h4 class="py-3">24/7 Support </h4>
+                <p class="para-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam odit consequatur doloribus natus in suscipit!</p>
+            </div>
+        </div>
         </div>
         <!-- end of container -->
     </section>
@@ -747,6 +796,9 @@
     <!-- AOS on Animation Scroll -->
     <script src="./js/script.js"></script>
     <!-- Custom scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
