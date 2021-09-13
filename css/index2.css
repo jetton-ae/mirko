@@ -3633,7 +3633,7 @@ Table Of Contents:
     /* Section Background */
     
     .home {
-        height: 110vh;
+        height: 71vh;
     }
     
     .about,
@@ -3853,9 +3853,9 @@ Table Of Contents:
     /****************/
     
     .home {
-        background-image: url(../assets/images/banner1420_828.jpg);
-        background-size: cover;
-        background-position: center;
+        background-image: url(../assets/images/home.jpg);
+        background-size: 100%;
+        /* background-position: center; */
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
