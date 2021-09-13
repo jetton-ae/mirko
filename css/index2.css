@@ -3632,13 +3632,15 @@ Table Of Contents:
     }
     /* Section Background */
     
-    .home,
+    .home {
+        height: 110vh;
+    }
+    
     .about,
     .services,
     .plans,
     .work,
     .contact {
-        /* height: 110vh; */
         position: relative;
     }
     
