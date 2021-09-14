@@ -277,9 +277,25 @@ Description: Constra - Construction Html5 Template
     /* Title */
     
     .title {
-        font-size: 32px;
+        font-size: 30px;
         line-height: 36px;
         margin-bottom: 20px;
+    }
+    
+    @media (max-width: 1024px) {
+        .title {
+            font-size: 24px;
+            line-height: 36px;
+            margin-bottom: 20px;
+        }
+    }
+    
+    @media (max-width: 768px) {
+        .title {
+            font-size: 18px;
+            line-height: 36px;
+            margin-bottom: 20px;
+        }
     }
     /* Title Border */
     /* Section title */
