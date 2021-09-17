@@ -4745,7 +4745,7 @@ Table Of Contents:
     /* ==================================== */
     
     .card-container {
-        width: 300px;
+        width: 100%;
         height: 300px;
     }
     
@@ -4763,13 +4763,14 @@ Table Of Contents:
     }
     
     .card-imgouter {
+        width: 100%;
         position: absolute;
         backface-visibility: hidden;
     }
     
     .card-img {
         border-radius: 6px;
-        width: 300px;
+        width: 100%x;
         height: 300px;
     }
     
