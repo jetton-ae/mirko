@@ -3649,7 +3649,7 @@ Table Of Contents:
     /* Section Background */
     
     .home {
-        height: 71vh;
+        /* height: 71vh; */
     }
     
     .about,
@@ -3870,7 +3870,7 @@ Table Of Contents:
     
     .home {
         background-image: url(../assets/images/home.jpg);
-        background-size: 100%;
+        /* background-size: 100%; */
         /* background-position: center; */
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -4039,6 +4039,8 @@ Table Of Contents:
         border-image-source: var(--gradient);
         box-shadow: 5px 5px 0px 0px #0ee951;
     }
+    
+    @media only screen and (max-width: 1024px) {}
     /*****************/
     /*     Plans     */
     /*****************/
