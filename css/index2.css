@@ -4748,6 +4748,33 @@ Table Of Contents:
     }
     /* ==================================== */
     
+    @media (max-width:2560px) {
+        .pc {
+            display: 0block;
+        }
+        .mb {
+            display: none;
+        }
+    }
+    
+    @media (max-width:1024px) {
+        .pc {
+            display: none;
+        }
+        .mb {
+            display: block;
+        }
+    }
+    
+    @media (max-width:768px) {
+        .pc {
+            display: none;
+        }
+        .mb {
+            display: block;
+        }
+    }
+    
     .card-container {
         width: 100%;
         height: 300px;
